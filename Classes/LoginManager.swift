@@ -138,6 +138,11 @@ public class LoginManager: NSObject {
         return userData
     }
     
+    public func logout() {
+        self.facebookManger.logOut()
+        
+    }
+    
 }
 
 
